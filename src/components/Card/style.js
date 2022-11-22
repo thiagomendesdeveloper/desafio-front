@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 export const Article = styled.card`
   background: #f6f6f6;
   height: 450px;
