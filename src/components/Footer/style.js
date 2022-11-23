@@ -8,9 +8,11 @@ export const Wrapper = styled.footer`
   background: #212121;
   color: #fff;
   text-align: center;
-  height: 200px;
+  padding: 20px;
+  
   p {
     margin: 0;
     padding: 0;
+    font-size: 16px;
   }
 `;
