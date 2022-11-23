@@ -5,8 +5,7 @@ import React from 'react'
 //import { useMenuQuery } from '../../hooks/useMenuQuery'
 import { Wrapper, Content } from '../Header/style'
 
-const Header = () => {
-    
+const Header = () => {    
   //const { site, menu } = useMenuQuery()
   
   return (
