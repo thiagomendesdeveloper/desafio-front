@@ -1,9 +1,15 @@
-import Layout from './style/index'
+import {theme} from './styles/theme';
+import GlobalStyle from './styles/globalStyles';
+import {ThemeProvider} from 'styled-components';
+import Router from '../src/routes/index';
 
-function App() {
+
+function App(): JSX.Element {
   return (
-    <Layout />
-      
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Router />
+    </ThemeProvider>
   );
 }
 

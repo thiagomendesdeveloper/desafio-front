@@ -1,5 +1,4 @@
 import React from 'react'
-//import Navigation from '../Nav/index'
 import logo from '../../assets/images/logo-apiki.webp'
 import { Wrapper, Content } from '../Header/style'
 
@@ -9,7 +8,6 @@ const Header = () => {
     <Wrapper>
       <Content>
         <img src={logo} alt="" />
-          {/* <Navigation menu={menu.menuItems.nodes} />  */}
       </Content>
     </Wrapper>
       

@@ -1,6 +1,8 @@
 import { Article } from '../Card/style'
 import { useFetch } from '../../hooks/useFetch'
 import { Wrapper } from "./style"
+import { Link } from 'react-router-dom';
+
 
 
 export default function Card(){
@@ -51,7 +53,7 @@ export default function Card(){
               <h3>{e.title.rendered}</h3>
               <time>Postado em: {dateFormat(e.date)}</time>
               <p>{removeTags(e.excerpt.rendered)}</p>
-              <a href={e.link}>Saiba mais</a>
+              <Link to={e.link}>Saiba mais</Link>
             </Article>
           )})
         }
