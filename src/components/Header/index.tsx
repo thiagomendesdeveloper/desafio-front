@@ -1,6 +1,6 @@
 import React from 'react'
 //import { Link } from 'gatsby'
-import Navigation from '../Nav/index'
+//import Navigation from '../Nav/index'
 //import Logo from '../../images/logo.svg'
 //import { useMenuQuery } from '../../hooks/useMenuQuery'
 import { Wrapper, Content } from '../Header/style'
@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <Wrapper>
       <Content>
-          <a href="#">
+          <a href="/">
               {/* <img src={Logo} alt={site.siteMetadata.title} /> */}
           </a>
           {/* <Navigation menu={menu.menuItems.nodes} />  */}
