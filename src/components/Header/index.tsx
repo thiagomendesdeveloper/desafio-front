@@ -5,8 +5,7 @@ import Navigation from '../Nav/index'
 //import { useMenuQuery } from '../../hooks/useMenuQuery'
 import { Wrapper, Content } from '../Header/style'
 
-const Header = () => {
-    
+const Header = () => {    
   //const { site, menu } = useMenuQuery()
   
   return (
