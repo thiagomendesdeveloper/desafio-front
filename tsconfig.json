@@ -20,7 +20,8 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "files": ["src/types/index.d.ts"],
   "include": [
-    "src"
+    "src", "src/types/index.d.ts"  
   ]
 }
