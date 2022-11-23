@@ -12,11 +12,11 @@ const Layout = () => {
     return (
         <>
             <GlobalStyles />
-            <Header />
-            <Nav />
+            {/* <Header /> */}
+            {/* <Nav /> */}
             <Card />
-            <Primary></Primary>
-            <Footer />
+            {/* <Primary></Primary> */}
+            {/* <Footer /> */}
 
             
         </>
