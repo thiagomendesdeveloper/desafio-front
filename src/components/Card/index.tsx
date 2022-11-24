@@ -3,8 +3,6 @@ import { useFetch } from '../../hooks/useFetch'
 import { Wrapper } from "./style"
 import { Link } from 'react-router-dom';
 
-
-
 export default function Card(){
   
   function removeTags(str:string):boolean|string {
@@ -47,13 +45,13 @@ export default function Card(){
     return(
       <Wrapper>
         { data.map((e:any, index:number) => {
-          console.log(e)
+          // console.log(e)
           return (
             <Article key={index}>
               <h3>{e.title.rendered}</h3>
               <time>Postado em: {dateFormat(e.date)}</time>
               <p>{removeTags(e.excerpt.rendered)}</p>
-              <Link to={e.link}>Saiba mais</Link>
+              <Link to={`/post/${e.id}`}>Saiba mais</Link>
             </Article>
           )})
         }
